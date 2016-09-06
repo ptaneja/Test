@@ -8,14 +8,14 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = "authorizenet-sdk"
+  s.name             = "test-sdk"
   s.version          = "2.0.7"
   s.summary          = "iOS SDK for Authorize.Net Payments"
   s.description      = "The iOS SDK provides a fast and easy way for iPhone/iPad application developers to quickly integrate mobile payment without having to write the network communication, XML generation/parsing, and encoding of the data to the Authorize.net gateway."
-  s.homepage         = "https://github.com/authorizenet/sdk-ios"
-  s.license          = 'https://github.com/AuthorizeNet/sdk-ios/blob/master/LICENSE'
-  s.author           = { "Authorize.Net" => "developer@authorize.net" }
-  s.source           = { :git => "https://github.com/authorizenet/sdk-ios.git", :tag => s.version.to_s }
+#s.homepage         = "https://github.com/ptaneja/Test"
+#s.license          = 'https://github.com/AuthorizeNet/sdk-ios/blob/master/LICENSE'
+#s.author           = { "Authorize.Net" => "developer@authorize.net" }
+  s.source           = { :git => "https://github.com/ptaneja/Test.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
